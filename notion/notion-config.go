@@ -16,6 +16,7 @@ func goDotEnvVar(key string) string {
 }
 
 var (
-	Notion_Key = goDotEnvVar("NOTION_KEY")
-	Notion_DB  = goDotEnvVar("NOTION_DB")
+	Notion_Key  = goDotEnvVar("NOTION_KEY")
+	Notion_DB   = goDotEnvVar("NOTION_DB")
+	Notion_Page = goDotEnvVar("NOTION_PAGE")
 )
